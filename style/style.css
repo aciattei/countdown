@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.coming-soon {
+    min-height: 100vh;
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 45px;
+
+}
+
+.day, .hour, .minute, .second {
+    font-size: 3rem;
+}
+
+#classroom {
+    margin-top: 45px;
+    max-width: 100%;
+}
